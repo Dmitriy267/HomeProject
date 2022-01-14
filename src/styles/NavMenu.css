@@ -1,0 +1,46 @@
+@media screen and (max-width:1680px){
+	nav a:hover{
+        color:#00A67C;
+    }
+    ul{
+        list-style-type: none;
+    }
+	ul{display:flex;
+		 justify-content: space-between;
+		 width:400px;
+		 padding-left: 0px;
+		  margin-right:20px;
+	}
+}
+
+@media screen and (max-width:1440px){
+	nav a:hover{
+        color:#00A67C;
+    }
+    ul{
+        list-style-type: none;
+    }
+	 ul{display:flex;
+		 justify-content: space-between;
+		 width:400px;
+		 padding-left: 0px;
+		 margin-right:20px;
+	}
+	
+}
+@media screen and (max-width:375px){
+	  nav a:hover{
+        color:#00A67C;
+    }
+    ul{
+        list-style-type: none;
+    }
+	ul{
+		display: flex;
+    flex-direction:column;
+    width: 150px;
+    padding-left: 0px;
+	 margin-right:8px;
+	}
+	
+}

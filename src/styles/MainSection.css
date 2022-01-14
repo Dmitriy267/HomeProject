@@ -1,0 +1,116 @@
+@media screen and (max-width:1680px){
+	main{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+	 h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 64px;
+     text-align: center;
+    }
+	.search-form{
+        width: 1240px;
+        border: 2px solid #FFE440;
+    }
+	
+	.search-form a:hover{
+        color:red;
+    }
+	   .search-form__text{
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+	#search-form__select{
+        display: block;
+        margin-top: 20px;
+    }
+	 .search-form a{
+	   font-size: 30px;
+   }
+   
+   .search-form__div_secretive{
+	margin-left:30px;
+}
+}
+
+@media screen and (max-width:1440px){
+	main{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 64px;
+     text-align: center;
+    }
+	.search-form{
+        width: 1040px;
+        border: 2px solid #FFE440;
+    }
+	.search-form a:hover{
+        color:red;
+    }
+	   .search-form__text{
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+	 #search-form__select{
+        display: block;
+        margin-top: 20px;
+    }
+   .search-form a{
+	   font-size: 30px;
+   }
+   
+   .search-form__div_secretive{
+	margin-left:30px;
+}
+}
+@media screen and (max-width:375px){
+	main{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+     text-align: center;
+    }
+    .search-form{
+        width: 360px;
+        border: 2px solid #FFE440;
+    }
+	.search-form a:hover{
+        color:red;
+    }
+
+    .search-form__text{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    #search-form__select{
+        display: block;
+        margin-top: 9px;
+    }
+	.search-form a {
+    font-size: 18px;
+}
+.search-form__div_secretive{
+	margin-left:15px;
+}
+ .search-form ul{
+        display: flex;
+        justify-content: space-around;
+       padding: 0px;
+	   width:360px;
+    }
+}

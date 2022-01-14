@@ -1,0 +1,23 @@
+@media screen and (max-width:1680px){
+	 h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 64px;
+     text-align: center;
+    }
+}
+
+@media screen and (max-width:1440px){
+	 h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 64px;
+     text-align: center;
+    }
+}
+
+@media screen and (max-width:375px){
+	h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+     text-align: center;
+    }
+}

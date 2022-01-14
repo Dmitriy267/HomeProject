@@ -1,0 +1,51 @@
+@media screen and (max-width:1680px){
+	 header{
+        width:1680px;
+        background-color: #983FD5;
+        display: flex;
+    }
+	.header-container{
+        display: flex;
+        width: 1665px;
+        justify-content: space-between;
+    }
+	 .logo{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+	
+}
+
+@media screen and (max-width:1440px){
+	header{
+        width:1440px;
+        background-color: #983FD5;
+        display: flex;
+    }
+	.header-container{
+        display: flex;
+        width: 1665px;
+        justify-content: space-between;
+    }
+	.logo{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:375px){
+	  header{
+        width:375px;
+        background-color: #983FD5;
+        display: flex;
+    }
+	.header-container{
+        display: flex;
+        width: 1665px;
+        justify-content: space-between;
+    }
+	.logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

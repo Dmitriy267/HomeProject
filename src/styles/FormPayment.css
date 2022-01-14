@@ -1,0 +1,113 @@
+@media screen and (max-width:1680px){
+	.block-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+		margin-bottom:10px;
+	}
+input:invalid {
+    border: 2px solid red;
+}
+.block-form__input-tel, .block-form__input-sum {
+    border: 2px solid #FFE440;
+}
+
+.block-form__span-error, .block-form__span-error_second {
+    width: 100%;
+    font-size: 80%;
+    box-sizing: border-box;
+    color: red;
+	    padding: 0.3em;
+}
+.block-form__button-sending {
+    border: 2px solid #000;
+    background-color: #FFE440;
+}
+.block-form__p-result {
+    color: black;
+    font-size: 25px;
+}
+}
+@media screen and (max-width:1440px){
+	.block-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+		margin-bottom:10px;
+	}
+input:invalid {
+    border: 2px solid red;
+}
+.block-form__input-tel, .block-form__input-sum {
+    border: 2px solid #FFE440;
+}
+
+.block-form__span-error, .block-form__span-error_second {
+    width: 100%;
+    font-size: 80%;
+    box-sizing: border-box;
+    color: red;
+	    padding: 0.3em;
+}
+.block-form__button-sending {
+    border: 2px solid #000;
+    background-color: #FFE440;
+}
+.block-form__p-result {
+    color: black;
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width:375px){
+	.block-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .block-form__input-tel, .block-form__input-sum{
+        border: 2px solid #FFE440;
+    }
+    .block-form__button-sending{
+        border: 2px solid #000;
+        background-color: #FFE440;
+    }
+    .div-connection__title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+	
+	input{
+		margin-bottom:10px;
+	}
+	input:invalid{
+		  border: 2px solid red;
+	}
+	
+	.block-form__span-error, .block-form__span-error_second{
+		width:100%; 
+  font-size: 80%;
+  box-sizing: border-box;
+color:red;
+	}
+	.span-valid{
+	display:none;
+	}
+	
+	.block-form__span-error, .block-form__span-error_second{
+		 padding: 0.3em;
+	}
+	.block-form__p-result {
+		color: black;
+		font-size:16px;
+		
+	}
+	.link-div__link_main-page{
+		color: blue;
+	}
+}

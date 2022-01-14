@@ -1,0 +1,25 @@
+@media screen and (max-width:1680px){
+	.search-form__ul-list{
+        display: flex;
+        justify-content: space-around;
+       padding: 0px;
+	       width: 1240px;
+    }
+}
+@media screen and (max-width:1440px){
+	  .search-form__ul-list{
+        display: flex;
+        justify-content: space-around;
+       padding: 0px;
+	       width: 1000px;
+    }
+}
+
+@media screen and (max-width:375px){
+	.search-form__ul-list{
+	display: flex;
+	flex-direction:row;
+	width: 150px;
+    padding-left: 0px;
+}
+}
